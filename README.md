@@ -86,13 +86,13 @@ Key questions explored:
 
 2. **Set up the environment**
 
-- **Option 1: Using Conda**
+   - **Option 1: Using Conda**
    ```bash
    conda env create -f environment.yml
-conda activate ml_drug_prediction
+   conda activate ml_drug_prediction
    ```
 
-- **Option 2: Using pip**
+   - **Option 2: Using pip**
    ```bash
    pip install -r requirements.txt
    ```
@@ -157,7 +157,7 @@ This project implements and compares **8 classification algorithms**:
    - Random state set for reproducibility
 
 ### 4. **Model Evaluation**
-   - **Metrics** – Metrics: Accuracy, Macro F1, Precision, Recall; Confusion matrices visualize per-class performance.
+   - **Metrics**: Accuracy, Macro F1, Precision, Recall; Confusion matrices visualize per-class performance.
    - 5-fold Stratified cross-validation for robust evaluation
 
 ### 5. **Test Set Performance Summary**
@@ -216,7 +216,7 @@ Through this project, I enhanced my machine learning and Python skills:
 
 ---
 
-## 💡 Key Insights
+### 💡 Key Insights
 
 1. **Ensemble methods generally outperform single models** – Random Forest showed superior stability
 2. **Proper encoding is critical** – One-hot encoding significantly improved model performance
@@ -256,7 +256,9 @@ Potential improvements for this project:
 
 ---
 
-## 📂 Project Structure
+### ✨ Created by Nadia Rozman | January 2026
+
+**📂 Project Structure**
 
 ```
 ML_Classification_Drug_Prediction/
@@ -276,16 +278,8 @@ ML_Classification_Drug_Prediction/
 └── .gitignore
 ```
 
----
-
-## 🙏 Acknowledgments
-
-- Dataset provided as part of machine learning coursework
-- Scikit-learn documentation for algorithm guidance
-- Seaborn and Matplotlib communities for visualization techniques
-
----
-
-### ✨ Created by Nadia Rozman | January 2026
+**🔗 Connect with me**
+- GitHub: [@NadiaRozman](https://github.com/NadiaRozman)
+- LinkedIn: [Nadia Rozman](https://www.linkedin.com/in/nadia-rozman-4b4887179/)
 
 **⭐ If you found this project helpful, please consider giving it a star!**
