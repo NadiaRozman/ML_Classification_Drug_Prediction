@@ -177,7 +177,7 @@ This project implements and compares **8 classification algorithms**:
 
 **Visualization – Test Set Accuracy & F1 Macro**
 
-![Test Set Performance Summary](images/Test_Set_Accuracy_Comparison.png)
+![Test Set Performance Summary](image/Test_Set_Accuracy_Comparison.png)
 *Accuracy and F1 Macro comparison across all models.*
 
 ---
@@ -266,10 +266,10 @@ ML_Classification_Drug_Prediction/
 ├── data/
 │   └── drug_prescription_dataset.csv
 │
-├── notebooks/
+├── notebook/
 │   └── Drug_Classification_ML.ipynb
 │
-├── images/
+├── image/
 │   └── Test_Set_Accuracy_Comparison.png
 │
 ├── requirements.txt
