@@ -112,28 +112,28 @@ Key questions explored:
 
 This project implements and compares **8 classification algorithms**:
 
-### 1. **Naive Bayes Family**
+### **1. Naive Bayes Family**
    - **Gaussian Naive Bayes** – Assumes continuous features with Gaussian distribution
    - **Multinomial Naive Bayes** – Suitable for discrete count data
    - **Bernoulli Naive Bayes** – Binary/boolean features
 
-### 2. **Logistic Regression**
+### **2. Logistic Regression**
    - Linear model for classification with probabilistic output
    - Used with stratified cross-validation
 
-### 3. **Decision Tree**
+### **3. Decision Tree**
    - Tree-based model using entropy criterion
    - Includes hyperparameter tuning for max_depth
 
-### 4. **Random Forest**
+### **4. Random Forest**
    - Ensemble method combining multiple decision trees
    - 100 estimators with optimized max_depth
 
-### 5. **K-Nearest Neighbors (KNN)**
+### **5. K-Nearest Neighbors (KNN)**
    - Instance-based learning algorithm
    - Optimized number of neighbors through GridSearchCV
 
-### 6. **Support Vector Machine (SVM)**
+### **6. Support Vector Machine (SVM)**
    - Uses RBF kernel for non-linear classification
    - Effective for high-dimensional data
 
@@ -141,26 +141,26 @@ This project implements and compares **8 classification algorithms**:
 
 ## 📈 Project Workflow & Analysis
 
-### 1. **Data Loading & Exploration**
+### **1. Data Loading & Exploration**
    - Load dataset using Pandas
    - Explore data structure, types, and distributions
    - Check for missing values
    - Analyze target variable distribution
 
-### 2. **Data Preprocessing**
+### **2. Data Preprocessing**
    - One-hot encoded categorical variables (Sex, BP, Cholesterol)
    - Label encoded the target variable Drug
 
-### 3. **Train-Test Split**
+### **3. Train-Test Split**
    - Split ratio: 70% training, 30% testing
    - Stratified split to maintain class distribution
    - Random state set for reproducibility
 
-### 4. **Model Evaluation**
+### **4. Model Evaluation**
    - **Metrics**: Accuracy, Macro F1, Precision, Recall; Confusion matrices visualize per-class performance.
    - 5-fold Stratified cross-validation for robust evaluation
 
-### 5. **Test Set Performance Summary**
+### **5. Test Set Performance Summary**
 
 | Model                  | Accuracy (Test) | F1 Macro (Test) |
 | ---------------------- | --------------- | --------------- |
@@ -200,19 +200,19 @@ This project implements and compares **8 classification algorithms**:
 
 Through this project, I enhanced my machine learning and Python skills:
 
-* 🤖 **Algorithm Implementation** – Built and compared 8 classification algorithms
-* **💡 Pipeline Design** – Unified pipelines enabled scaling, training, and evaluation with minimal code duplication
-* 🔧 **Hyperparameter Tuning** – Used GridSearchCV and manual tuning for optimal parameters
-* 📊 **Model Evaluation** – Applied multiple metrics (accuracy, precision, recall, F1-score). Accuracy alone is insufficient for imbalanced multi-class problems; F1 Macro provides a more balanced view
-* 🎨 **Data Visualization** – Annotated bar charts and heatmaps improved interpretability and presentation quality
-* 🔄 **Cross-Validation** – Implemented stratified K-fold for robust evaluation
-* 🧹 **Data Preprocessing** – Handled categorical variables, feature scaling, and label encoding
-* 📈 **Ensemble Methods** – Understood the power of Random Forest for improved predictions
-* 🔑 **Key Insights:**
+* **Algorithm Implementation** – Built and compared 8 classification algorithms
+* **Pipeline Design** – Unified pipelines enabled scaling, training, and evaluation with minimal code duplication
+* **Hyperparameter Tuning** – Used GridSearchCV and manual tuning for optimal parameters
+* **Model Evaluation** – Applied multiple metrics (accuracy, precision, recall, F1-score). Accuracy alone is insufficient for imbalanced multi-class problems; F1 Macro provides a more balanced view
+* **Data Visualization** – Annotated bar charts and heatmaps improved interpretability and presentation quality
+* **Cross-Validation** – Implemented stratified K-fold for robust evaluation
+* **Data Preprocessing** – Handled categorical variables, feature scaling, and label encoding
+* **Ensemble Methods** – Understood the power of Random Forest for improved predictions
+* **Key Insights:**
    - Decision Tree = Best performing model
    - Random Forest = Most stable model
    - Na_to_K = Most important feature
-* 🐍 **Python & Scikit-learn** – Reinforced expertise in preprocessing, model tuning, cross-validation, and classification workflows
+* **Python & Scikit-learn** – Reinforced expertise in preprocessing, model tuning, cross-validation, and classification workflows
 
 ---
 
